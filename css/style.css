@@ -47,7 +47,6 @@ h1 {
   color: var(--white);
   grid-column: 2 / 3;
   justify-self: end;
-  font-size: 0.8em;
 }
 
 .main-section aside a {
