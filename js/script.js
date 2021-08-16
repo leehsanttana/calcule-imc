@@ -47,14 +47,14 @@ function calcularIMC(){
     if (imc <= 18.5) {
       levels[0].classList.add('abaixo-peso');
       modal.classList.add('abaixo-peso');
-      spanMsg.innerHTML = 'Cuidado! 🤨'
-      spanImc.innerHTML = imc;
+      spanMsg.innerHTML = 'Cuidado! '
+      spanImc.innerHTML = imc + ' 🤨';
     
     } else if (imc >= 18.6 && imc <= 24.9) {
       levels[1].classList.add('peso-normal');
       modal.classList.add('peso-normal');
-      spanMsg.innerHTML = 'Parabéns! 👏'
-      spanImc.innerHTML = imc ;
+      spanMsg.innerHTML = 'Parabéns! '
+      spanImc.innerHTML = imc + ' 👏';
 
     } else if (imc >= 25 && imc <= 29.9) {
       levels[2].classList.add('sobrepeso');
@@ -65,20 +65,20 @@ function calcularIMC(){
     } else if (imc >= 30 && imc <= 34.9) {
       levels[3].classList.add('obesidade-i');
       modal.classList.add('obesidade-i');
-      spanMsg.innerHTML = 'Atenção! 😦'
-      spanImc.innerHTML = imc;
+      spanMsg.innerHTML = 'Atenção! '
+      spanImc.innerHTML = imc + ' 😦';
       
     } else if (imc >= 35 && imc <= 39.9) {
       levels[4].classList.add('obesidade-ii');
       modal.classList.add('obesidade-ii');
-      spanMsg.innerHTML = 'Alerta! 😨'
-      spanImc.innerHTML = imc;
+      spanMsg.innerHTML = 'Alerta! '
+      spanImc.innerHTML = imc + ' 😨';
 
     } else if (imc >= 40) {
       levels[5].classList.add('obesidade-iii');
       modal.classList.add('obesidade-iii');
-      spanMsg.innerHTML = 'Procure um médico!!! 😱'
-      spanImc.innerHTML = imc;
+      spanMsg.innerHTML = 'Procure um médico!!! '
+      spanImc.innerHTML = imc + ' 😱';
       
     }
 
