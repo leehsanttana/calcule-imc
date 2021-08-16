@@ -57,6 +57,7 @@ h1 {
 }
 
 .calc-section {
+  margin-top: 58px;
   padding: 2em;
   background: var(--white);
   border-radius: 20px;
@@ -209,6 +210,10 @@ h1 {
 @media (max-width: 900px) {
   .main-section {
     grid-template-columns: 1fr;
+  }
+
+  .calc-section {
+    margin-top: 1em;
   }
 
   .modal.active {
